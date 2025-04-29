@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_core/firebase_core.dart';
 import 'home_page.dart';
+import 'landing_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  try {
-    await Firebase.initializeApp();
-  } catch (e) {
-    print('Error initializing Firebase: $e');
-  }
+  // try {
+  //   await Firebase.initializeApp();
+  // } catch (e) {
+  //   print('Error initializing Firebase: $e');
+  // }
   runApp(const MyApp());
 }
 
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const LandingPage(),
     );
   }
 }
