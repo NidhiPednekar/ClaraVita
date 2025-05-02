@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "93036228074",
+    "project_id": "claravita-b3dea",
+    "storage_bucket": "claravita-b3dea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93036228074:android:6239c8cf4256b1fe3fd693",
+        "android_client_info": {
+          "package_name": "com.example.clara_vita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93036228074-eje5g23t3vgn9lrth5gmpueleb0611vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPLMPCilbZ_iSr9pTm5_WqXVfS1b-nLwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93036228074-eje5g23t3vgn9lrth5gmpueleb0611vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
